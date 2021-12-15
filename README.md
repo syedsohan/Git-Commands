@@ -1,8 +1,12 @@
 <p align="center"><img src="./images/Git-Logo-1788C.png" alt="Git-Logo" width="400"/></p>
 
-# Git Basic Commands
+<div align="center">
+<h1><b>Git Basic Commands</b></h1>
+</div>
 
-***Curated list of commonly used Git commands.***
+<div align="center">
+<h2><b><i>Curated list of commonly used Git commands.</i></b></h2>
+</div>
 
 ## Table of contents
 
