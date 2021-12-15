@@ -1,7 +1,7 @@
 <p align="center"><img src="./images/Git-Logo-1788C.png" alt="Git-Logo" width="400"/></p>
 
 <div align="center">
-<h1><b>Git Basic Commands</b></h1>
+<h1><b>Git Commands</b></h1>
 </div>
 
 <div align="center">
