@@ -47,12 +47,12 @@
 
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
-| add | `git add <file or directory name>` | Add a file or folder to the staging area |
-| add | `git add .` | Add all file or folder to the staging area |
-| status | `git status` | Check status |
-| commit | `git commit -m "Commit message in quotes"` | Adding a commit with message |
-| rm | `git rm -r -f <file_name / directory_name>` | Remove a file / directory (force) |
-| mv | `git mv -f <source> <destination>` | Move or rename a file / directory (force) |
+| add | `git add <file or directory name>` | Add a file or folder to the staging area. |
+| add | `git add .` | Add all file or folder to the staging area. |
+| status | `git status` | Check status. |
+| commit | `git commit -m "Commit message in quotes"` | Adding a commit with message. |
+| rm | `git rm -r -f <file_name / directory_name>` | Remove a file / directory (force). |
+| mv | `git mv -f <source> <destination>` | Move or rename a file / directory (force). |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
