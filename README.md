@@ -94,11 +94,11 @@
 
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
-| show | `git show commitA...commitD` | This will output all commits in the range from commitA to commit D |
-| log | `git log` | Show entire git log |
-| log | `git log --<author>="Author Name"` | Show git log based on commit author |
-| log | `git log --summary` | View changes (detailed) |
-| diff | `git diff <source_branch> <target_branch>` | Preview changes before merging |
+| show | `git show commitA...commitD` | This will output all commits in the range from commitA to commit D. |
+| log | `git log` | Show entire git log. |
+| log | `git log --<author>="Author Name"` | Show git log based on commit author. |
+| log | `git log --summary` | View changes (detailed). |
+| diff | `git diff <source_branch> <target_branch>` | Preview changes before merging. |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
