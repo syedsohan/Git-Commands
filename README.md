@@ -23,10 +23,10 @@
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
 | git      | `git --version` | Install [Git](https://git-scm.com/downloads) & check the version. |
-| config user_name | `git config --global user.name "John Doe"` | Git global configuration settings |
-| config email | `git config --global user.email johndoe@example.com` | Git global configuration settings |
-| config user_name | `git config user.name "John Doe"` | Git configuration settings on the current repository settings |
-| config email | `git config user.email johndoe@example.com` | Git configuration settings on the current repository settings |
+| config user_name | `git config --global user.name "John Doe"` | Git global configuration settings. |
+| config email | `git config --global user.email johndoe@example.com` | Git global configuration settings. |
+| config user_name | `git config user.name "John Doe"` | Git configuration settings on the current repository settings. |
+| config email | `git config user.email johndoe@example.com` | Git configuration settings on the current repository settings. |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
