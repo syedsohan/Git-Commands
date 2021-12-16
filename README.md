@@ -80,11 +80,11 @@
 
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
-| fetch | `git fetch origin` | A copy of our remote repository (located at “origin”) is downloaded and saved to our local machine |
-| pull | `git pull <branch_name> <remote_URL/remote_name>` | This pulls the changes from the remote repository to the local computer |
-| push | `git push origin <branch_name>` | Push a branch to your remote repository |
-| push | `git push —all` | Push all local branches to remote repository |
-| remote | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git` | Add a remote repository |
+| fetch | `git fetch origin` | A copy of our remote repository (located at “origin”) is downloaded and saved to our local machine. |
+| pull | `git pull <branch_name> <remote_URL/remote_name>` | This pulls the changes from the remote repository to the local computer. |
+| push | `git push origin <branch_name>` | Push a branch to your remote repository. |
+| push | `git push —all` | Push all local branches to remote repository. |
+| remote | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git` | Add a remote repository. |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
