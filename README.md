@@ -108,8 +108,8 @@
 
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
-| rebase | `git rebase -i <branch_name>` | The git rebase command is used to merge the history of two branches on a repository |
-| revert | `git revert <commit_to_revert>` | Revert last commit |
+| rebase | `git rebase -i <branch_name>` | The git rebase command is used to merge the history of two branches on a repository. |
+| revert | `git revert <commit_to_revert>` | Revert last commit. |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
