@@ -48,7 +48,7 @@
 | **Name** | **Command** | **Description** |
 | :---:    |    :----:   |      :---:      |
 | add | `git add <file or directory name>` | Add a file or folder to the staging area. |
-| add | `git add .` | Add all files located in root directory to the staging area. |
+| add | `git add .` | Add all files located in the root directory to the staging area. |
 | status | `git status` | Check status. |
 | commit | `git commit -m "Commit message in quotes"` | Adding a commit with message. |
 | rm | `git rm -r -f <file_name / directory_name>` | Remove a file / directory (force). |
