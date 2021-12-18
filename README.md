@@ -27,6 +27,7 @@
 | config email (global) | `git config --global user.email johndoe@example.com` | Git global configuration settings. |
 | config user_name | `git config user.name "John Doe"` | Git configuration settings on the current repository settings. |
 | config email | `git config user.email johndoe@example.com` | Git configuration settings on the current repository settings. |
+| config | `git config --list` | It shows your Git configurations |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
