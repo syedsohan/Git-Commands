@@ -21,7 +21,7 @@
 ## Setup and Config
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | git      | `git --version` | Install [Git](https://git-scm.com/downloads) & check the version. |
 | config user_name (global) | `git config --global user.name "John Doe"` | Git global configuration settings. |
 | config email (global) | `git config --global user.email johndoe@example.com` | Git global configuration settings. |
@@ -36,7 +36,7 @@
 ## Getting and Creating Projects
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | init | `git init` | Initialize a local Git repository. |
 | clone | `git clone SSH: git@github.com/<username>/<repository-name>.git` | Create a local copy of a remote repository. |
 
@@ -47,7 +47,7 @@
 ## Basic Snapshotting
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | add | `git add <file or directory name>` | Add a file or folder to the staging area. |
 | add | `git add .` | Add all files located in the root directory to the staging area. |
 | add | `git add -A` | Find and add all new files and folder throughout the project and add them to the staging area. |
@@ -65,7 +65,7 @@
 ## Branching and Merging
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | branch | `git branch <branch_name>` | Create a new branch. |
 | branch | `git branch -a` | List all remote or local branches. |
 | branch | `git branch -d <branch_name>` | Delete a branch. |
@@ -83,7 +83,7 @@
 ## Sharing and Updating Projects
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | fetch | `git fetch origin` | A copy of our remote repository (located at “origin”) is downloaded and saved to our local machine. |
 | pull | `git pull <branch_name> <remote_URL/remote_name>` | This pulls the changes from the remote repository to the local computer. |
 | push | `git push origin <branch_name>` | Push a branch to your remote repository. |
@@ -97,7 +97,7 @@
 ## Inspection and Comparison
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | show | `git show commitA...commitD` | This will output all commits in the range from commitA to commit D. |
 | log | `git log` | Show entire git log. |
 | log | `git log --<author>="Author Name"` | Show git log based on commit author. |
@@ -111,7 +111,7 @@
 ## Patching
 
 | **Name** | **Command** | **Description** |
-| :---    |    :----:   |      ---      |
+| ---    |    ----   |      ---      |
 | rebase | `git rebase -i <branch_name>` | The git rebase command is used to merge the history of two branches on a repository. |
 | revert | `git revert <commit_to_revert>` | Revert last commit. |
 
