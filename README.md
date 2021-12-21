@@ -82,16 +82,16 @@
 
 ## Sharing and Updating Projects
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| fetch | `git fetch origin` | A copy of our remote repository (located at “origin”) is downloaded and saved to our local machine. |
-| pull | `git pull <branch_name> <remote_URL/remote_name>` | This pulls the changes from the remote repository to the local computer. |
-| push | `git push origin <branch_name>` | Push a branch to your remote repository. |
-| push | `git push —all` | Push all local branches to remote repository. |
-| push | `git push --set-upstream origin <branch_name>` | Push new commits to the upstream branch. |
-| remote | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git` | Add a remote repository. |
-| remote | `git remote add upstream SSH: git@github.com/<repo-owner-username>/<repository-name>.git` | Set upstream command. |
-| remote | `git remote -v` | URLs that Git has stored. |
+| **Name** | **Command**                                                                               | **Description**                                                     |
+|----------|-------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| fetch    | `git fetch origin`                                                                        | A copy of our remote repository saved to our local machine.         |
+| pull     | `git pull <branch_name> <remote_URL/remote_name>`                                         | Pulls the changes from the remote repository to the local computer. |
+| push     | `git push origin <branch_name>`                                                           | Push a branch to your remote repository.                            |
+| push     | `git push —all`                                                                           | Push all local branches to remote repository.                       |
+| push     | `git push --set-upstream origin <branch_name>`                                            | Push new commits to the upstream branch.                            |
+| remote   | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git`              | Add a remote repository.                                            |
+| remote   | `git remote add upstream SSH: git@github.com/<repo-owner-username>/<repository-name>.git` | Set upstream command.                                               |
+| remote   | `git remote -v`                                                                           | URLs that Git has stored.                                           |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -99,13 +99,13 @@
 
 ## Inspection and Comparison
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| show | `git show commitA...commitD` | This will output all commits in the range from commitA to commit D. |
-| log | `git log` | Show entire git log. |
-| log | `git log --<author>="Author Name"` | Show git log based on commit author. |
-| log | `git log --summary` | View changes (detailed). |
-| diff | `git diff <source_branch> <target_branch>` | Preview changes before merging. |
+| **Name** 	| **Command**                                	| **Description**                                                     	|
+|----------	|--------------------------------------------	|---------------------------------------------------------------------	|
+| show     	| `git show commitA...commitD`               	| This will output all commits in the range from commitA to commit D. 	|
+| log      	| `git log`                                  	| Show entire git log.                                                	|
+| log      	| `git log --<author>="Author Name"`         	| Show git log based on commit author.                                	|
+| log      	| `git log --summary`                        	| View changes (detailed).                                            	|
+| diff     	| `git diff <source_branch> <target_branch>` 	| Preview changes before merging.                                     	|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
@@ -113,10 +113,10 @@
 
 ## Patching
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| rebase | `git rebase -i <branch_name>` | The git rebase command is used to merge the history of two branches on a repository. |
-| revert | `git revert <commit_to_revert>` | Revert last commit. |
+| **Name** 	| **Command**                     	| **Description**                                                                      	|
+|----------	|---------------------------------	|--------------------------------------------------------------------------------------	|
+| rebase   	| `git rebase -i <branch_name>`   	| The git rebase command is used to merge the history of two branches on a repository. 	|
+| revert   	| `git revert <commit_to_revert>` 	| Revert last commit.                                                                  	|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
