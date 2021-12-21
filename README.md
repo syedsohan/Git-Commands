@@ -91,6 +91,7 @@
 | push | `git push --set-upstream origin <branch_name>` | Push new commits to the upstream branch. |
 | remote | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git` | Add a remote repository. |
 | remote | `git remote add upstream SSH: git@github.com/<repo-owner-username>/<repository-name>.git` | Set upstream command. |
+| remote | `git remote -v` | URLs that Git has stored. |
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
