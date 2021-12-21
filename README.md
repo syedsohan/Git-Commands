@@ -88,6 +88,7 @@
 | pull | `git pull <branch_name> <remote_URL/remote_name>` | This pulls the changes from the remote repository to the local computer. |
 | push | `git push origin <branch_name>` | Push a branch to your remote repository. |
 | push | `git push —all` | Push all local branches to remote repository. |
+| push | `git push --set-upstream origin <branch_name>` | Push new commits to the upstream branch. |
 | remote | `git remote add origin SSH: git@github.com/<username>/<repository-name>.git` | Add a remote repository. |
 
 <div align="right">
