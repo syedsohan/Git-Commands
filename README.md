@@ -46,17 +46,17 @@
 
 ## Basic Snapshotting
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| add | `git add <file or directory name>` | Add a file or folder to the staging area. |
-| add | `git add .` | Add all files located in the root directory to the staging area. |
-| add | `git add -A` | Find and add all new files and folder throughout the project and add them to the staging area. |
-| status | `git status` | Check status. |
-| commit | `git commit -m "Commit message in quotes"` | Add a commit with message. |
-| reset | `git reset <file_name>` | Opposite of `add`. |
-| rm | `git rm --cached <file_name>` | Remove files from the staging area. |
-| rm | `git rm -r -f <file_name / directory_name>` | Remove a file / directory (force). |
-| mv | `git mv -f <source> <destination>` | Move or rename a file / directory (force). |
+| **Name** 	| **Command**                                 	| **Description**                                                                                	|
+|----------	|---------------------------------------------	|------------------------------------------------------------------------------------------------	|
+| add      	| `git add <file or directory name>`          	| Add a file or folder to the staging area.                                                      	|
+| add      	| `git add .`                                 	| Add all files located in the root directory to the staging area.                               	|
+| add      	| `git add -A`                                	| Find and add all new files and folder throughout the project and add them to the staging area. 	|
+| status   	| `git status`                                	| Check status.                                                                                  	|
+| commit   	| `git commit -m "Commit message in quotes"`  	| Add a commit with message.                                                                     	|
+| reset    	| `git reset <file_name>`                     	| Opposite of `add`.                                                                             	|
+| rm       	| `git rm --cached <file_name>`               	| Remove files from the staging area.                                                            	|
+| rm       	| `git rm -r -f <file_name / directory_name>` 	| Remove a file / directory (force).                                                             	|
+| mv       	| `git mv -f <source> <destination>`          	| Move or rename a file / directory (force).                                                     	|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
