@@ -64,17 +64,17 @@
 
 ## Branching and Merging
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| branch | `git branch <branch_name>` | Create a new branch. |
-| branch | `git branch -a` | List all remote or local branches. |
-| branch | `git branch -d <branch_name>` | Delete a branch. |
-| checkout | `git checkout <branch_name>` | Checkout an existing branch. |
-| checkout | `git checkout -b <new_branch>` | Create a new branch and switch to it. |
-| merge | `git merge <branch_name>` | Merge changes into current branch. |
-| merge | `git merge <source_branch> <target_branch>` | Merge a branch into a target branch. |
-| stash | `git stash -u` | Store current work with untracked files. |
-| stash | `git stash pop` | Bring stashed work back to the working directory. |
+| **Name** 	| **Command**                                 	| **Description**                                   	|
+|----------	|---------------------------------------------	|---------------------------------------------------	|
+| branch   	| `git branch <branch_name>`                  	| Create a new branch.                              	|
+| branch   	| `git branch -a`                             	| List all remote or local branches.                	|
+| branch   	| `git branch -d <branch_name>`               	| Delete a branch.                                  	|
+| checkout 	| `git checkout <branch_name>`                	| Checkout an existing branch.                      	|
+| checkout 	| `git checkout -b <new_branch>`              	| Create a new branch and switch to it.             	|
+| merge    	| `git merge <branch_name>`                   	| Merge changes into current branch.                	|
+| merge    	| `git merge <source_branch> <target_branch>` 	| Merge a branch into a target branch.              	|
+| stash    	| `git stash -u`                              	| Store current work with untracked files.          	|
+| stash    	| `git stash pop`                             	| Bring stashed work back to the working directory. 	|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
