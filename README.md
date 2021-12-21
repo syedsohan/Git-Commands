@@ -35,10 +35,10 @@
 
 ## Getting and Creating Projects
 
-| **Name** | **Command** | **Description** |
-| ---    |    ----   |      ---      |
-| init | `git init` | Initialize a local Git repository. |
-| clone | `git clone SSH: git@github.com/<username>/<repository-name>.git` | Create a local copy of a remote repository. |
+| **Name** 	| **Command**                                                      	| **Description**                             	|
+|----------	|------------------------------------------------------------------	|---------------------------------------------	|
+| init     	| `git init`                                                       	| Initialize a local Git repository.          	|
+| clone    	| `git clone SSH: git@github.com/<username>/<repository-name>.git` 	| Create a local copy of a remote repository. 	|
 
 <div align="right">
     <b><a href="#table-of-contents">↥ Back To Top</a></b>
