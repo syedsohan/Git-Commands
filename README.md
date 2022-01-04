@@ -54,6 +54,7 @@
 | status   	| `git status`                                	| Check status.                                                                                  	|
 | commit   	| `git commit -m "Commit message in quotes"`  	| Add a commit with message.                                                                     	|
 | reset    	| `git reset <file_name>`                     	| Opposite of `add`.                                                                             	|
+| reset    	| `git reset --soft HEAD~1`                     | Undo Last Git Commit.                                                                             	|
 | rm       	| `git rm --cached <file_name>`               	| Remove files from the staging area.                                                            	|
 | rm       	| `git rm -r -f <file_name / directory_name>` 	| Remove a file / directory (force).                                                             	|
 | mv       	| `git mv -f <source> <destination>`          	| Move or rename a file / directory (force).                                                     	|
